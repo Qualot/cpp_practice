@@ -2,8 +2,8 @@
 
 //using namespace std;
 
-int main(void){
-    std::cout << "hello" << std::endl;
+int main(int argc, char *argv[]){
+    std::cout << "hello" << " " << argv[argc-1] << std::endl;
 
     return 0;
 }
